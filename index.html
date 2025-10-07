@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horizon Idea Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Horizon Logo" class="logo" />
+    <h1>Horizon Idea Hub</h1>
+    <p class="tagline">Create • Connect • Prosper</p>
+  </header>
+
+  <section class="intro">
+    <h2>Welcome to Horizon Idea Hub</h2>
+    <p>Share your innovative ideas and discover what others are creating across Africa.</p>
+  </section>
+
+  <section class="form-section">
+    <h3>Submit Your Idea</h3>
+    <form id="ideaForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <input type="text" id="title" placeholder="Idea Title" required />
+      <textarea id="description" placeholder="Describe your idea..." required></textarea>
+      <button type="submit">Submit Idea</button>
+    </form>
+  </section>
+
+  <section class="ideas-section">
+    <h3>Recent Ideas</h3>
+    <input type="text" id="searchBar" placeholder="Search ideas..." />
+    <div id="ideasList"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 Horizon Group | Powered by Vision and Creativity</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
